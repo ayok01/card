@@ -1,10 +1,9 @@
-import styles from "../styles/Home.module.scss"
 import TagCategory from "../components/TagCategory"
 import ImageCard from "../components/ImageCard"
 import { Grid, Spacer } from "@nextui-org/react"
 export default function componsntsTest() {
   return (
-    <div className={styles.container}>
+    <div>
       <TagCategory />
       <Grid.Container gap={0.5} justify="space-around">
         <Grid>
