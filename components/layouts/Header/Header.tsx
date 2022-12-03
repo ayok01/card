@@ -16,7 +16,7 @@ import {
 export default function Header({}) {
   const login: boolean = true
   return (
-    <Navbar isBordered variant="sticky" maxWidth="fluid">
+    <Navbar variant="sticky" maxWidth="fluid">
       <Navbar.Brand
         css={{
           w: "25%",

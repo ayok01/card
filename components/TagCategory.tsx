@@ -1,5 +1,6 @@
 import React from "react"
 import { Button, Grid } from "@nextui-org/react"
+import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu"
 
 type CategoryItems = {
   id: number
@@ -7,7 +8,7 @@ type CategoryItems = {
 }
 
 export default function TagCategory({}) {
-  const todos: CategoryItems[] = [
+  const categoryItems: CategoryItems[] = [
     { id: 1, content: "do something" },
     { id: 2, content: "go somewhere" },
     { id: 3, content: "go somewhere" },
@@ -17,11 +18,10 @@ export default function TagCategory({}) {
     { id: 7, content: "go somewhere" },
     { id: 8, content: "go somewhere" },
     { id: 9, content: "go somewhere" },
-    { id: 10, content: "go somewhere" },
   ]
   return (
     <Grid.Container gap={1}>
-      {todos.map((categoryItem: CategoryItems) => {
+      {categoryItems.map((categoryItem: CategoryItems) => {
         return (
           <Grid key={categoryItem.id}>
             <Button color="secondary" auto ghost>
