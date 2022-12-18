@@ -1,8 +1,9 @@
 import { Card, Col, Text, Grid, Avatar, Spacer } from "@nextui-org/react"
+import Link from "next/link"
 
 export default function ImageCard() {
   return (
-    <>
+    <a href="artwork/6">
       <Card isHoverable variant="flat" css={{ mw: "184px", mh: "122px" }}>
         <Card.Image
           src="https://nextui.org/images/card-example-4.jpeg"
@@ -33,6 +34,6 @@ export default function ImageCard() {
           </Text>
         </Grid>
       </Grid.Container>
-    </>
+    </a>
   )
 }

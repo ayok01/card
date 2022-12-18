@@ -123,56 +123,6 @@ export default function Header({}) {
                             </Text>
                           </Grid.Container>
                         </Dropdown.Item>
-                        <Dropdown.Item
-                          key="nice[2]"
-                          css={{ height: "auto", py: 10 }}
-                        >
-                          <Grid.Container
-                            gap={2}
-                            justify="flex-start"
-                            css={{ height: "auto" }}
-                          >
-                            <Avatar
-                              size="sm"
-                              src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
-                              zoomed
-                            />
-                            <Text
-                              css={{
-                                width: 150,
-                                mx: 10,
-                                fontSize: 12,
-                              }}
-                            >
-                              あｓｄさんが「あｓｄふぁｓｄふぁｓｄふぁｓｄｆ」をいいねしました
-                            </Text>
-                          </Grid.Container>
-                        </Dropdown.Item>
-                        <Dropdown.Item
-                          key="nice[3]"
-                          css={{ height: "auto", py: 10 }}
-                        >
-                          <Grid.Container
-                            gap={2}
-                            justify="flex-start"
-                            css={{ height: "auto" }}
-                          >
-                            <Avatar
-                              size="sm"
-                              src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
-                              zoomed
-                            />
-                            <Text
-                              css={{
-                                width: 150,
-                                mx: 10,
-                                fontSize: 12,
-                              }}
-                            >
-                              あｓｄさんが「あｓｄふぁｓｄふぁｓｄふぁｓｄｆ」をいいねしました
-                            </Text>
-                          </Grid.Container>
-                        </Dropdown.Item>
                       </Dropdown.Section>
                     </Dropdown.Menu>
                   </Dropdown>
